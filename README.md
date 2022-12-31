@@ -1,4 +1,4 @@
-# RESTful API Node Example
+# REST API Node Example
 
 Example API built with Node Express, populates an in-memory MongoDB instance with seed data.
 
