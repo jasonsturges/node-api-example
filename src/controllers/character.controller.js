@@ -1,8 +1,8 @@
-const httpStatus = require("http-status");
-const catchAsync = require("../utils/catchAsync");
-const { characterService } = require("../services");
-const pick = require("../utils/pick");
 const ApiError = require("../utils/ApiError");
+const catchAsync = require("../utils/catchAsync");
+const httpStatus = require("http-status");
+const pick = require("../utils/pick");
+const { characterService } = require("../services");
 
 const createCharacter = catchAsync(async (req, res) => {
   const character = await characterService.createCharacter(req.body);
