@@ -8,7 +8,7 @@ const seed = () => {
 
   Character.create({
     name: "Donald Duck",
-    description: "Pompous, showboating duck wearing a sailor suit, cap and a bow tie",
+    description: "Pompous, showboating duck wearing a sailor suit, cap, and a bow tie",
   });
 
   Character.create({
